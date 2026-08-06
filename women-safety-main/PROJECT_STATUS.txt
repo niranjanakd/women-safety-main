@@ -1,0 +1,102 @@
+# PROJECT STATUS — SAFETYPIN
+Last Updated: 2026-03-21
+============================================================
+
+## ✅ COMPLETED WORK (BY LOGIN TYPE)
+
+### 👩 User (Female — Normal User)
+1.  **Emergency SOS System**
+    1.  Manual SOS Button in home screen.
+    2.  Physical Volume Button: Press Volume Up 3× within 2s → 3-second cancellable overlay → SOS fires.
+    3.  Voice Keyword Trigger: Always-on background listener- **Vosk Offline Voice Trigger**: 100% offline, silent, and private recognition. [COMPLETED]
+- **Offline Voice Validation**: New trigger words verified during setup for accuracy. [COMPLETED]
+- **Physical Button Validation**: practice/test sequence in settings for volume trigger. [COMPLETED]
+- **24/7 Always-On Protection**: Safety service auto-starts on boot for continuous security. [COMPLETED]
+    4.  Automatic front-camera evidence recording in 30-second segmented uploads.
+    5.  Multi-tier cascading notifications: Contacts → Volunteers → Police.
+    6.  Live 3-party chat with police and volunteers after SOS is raised.
+
+2.  **Guarding Mode**
+    1.  Destination-based active tracking with Google Maps polyline routing.
+    2.  Safety check countdowns with automated escalation if no response.
+    3.  Incident-aware navigation: Detour suggestions based on nearby active SOS.
+    4.  Simulated Call feature (Fake Call / Video) for deterring stalkers.
+
+3.  **SOS Trigger Access Control**
+    1.  Triggers only activate for: signed-in + role='user' + gender='female'.
+    2.  3-layer runtime guard: no auth_token → stop | wrong role → stop | male → stop.
+
+4.  **Report Incident**
+    1.  Submit incidents with type, severity, description, location, and photo/video evidence.
+
+### 🤝 Volunteer
+1.  **Registration & Approval**
+    1.  New signup fields: Aadhaar Number, Permanent Address, Current Address.
+    2.  Cannot login until approved by authorities ("isApproved" flag).
+
+2.  **Profile Staging**
+    1.  Sensitive changes (Phone/Address) saved to "pendingUpdate" for authority review.
+    2.  Old vs New data comparison before approval; Direct authentication (OTP removed).
+
+3.  **SOS Alert Dashboard**
+    1.  Receive nearby SOS alerts when online; toggle online/offline status.
+    2.  Accept alert → Navigate to victim location.
+
+### 🚔 Police / Authority
+1.  **Authority — Volunteer Management**
+    1.  Approval Dashboard: Tabbed UI for New Accounts and Profile Update requests.
+    2.  Rejection logic: Remove fraudulent volunteer applications.
+
+2.  **Authority — Analytical Dashboard**
+    1.  Today's Overview: Active SOS, resolved cases, total reports (3-column grid).
+    2.  Weekly & Monthly Overview: Only "Done" status counted as resolved.
+    3.  Incident type breakdown chart.
+
+3.  **Police — Live Tracking Map**
+    1.  Real-time 10-second polling for active SOS alerts and online volunteer positions.
+    2.  SOS status updates reflect instantly without manual refresh.
+
+4.  **Police — SOS Management**
+    1.  SOS list with status filter; detail view with location, evidence, and chat.
+    2.  Update SOS status (Pending → Active → Done).
+
+### ⚙️ Core / Shared (All Roles)
+1.  Direct JWT-based authentication with role-based routing (authority, volunteer, user).
+2.  Password-only flow: Registration and Login no longer require OTP verification.
+3.  Background service with voice SOS and location syncing (female users only).
+4.  Persistent storage using MongoDB Atlas with optimized geo-queries.
+5.  Username or phone number login support.
+
+============================================================
+
+## 🔮 FUTURE WORKS (ROADMAP)
+
+1.  **FCM Push Notifications:** Replace polling with real-time push alerts for SOS.
+2.  **Media Streaming:** Implement live audio/video streaming during active SOS.
+3.  **Production Deployment:** Hosting backend on Render and preparing for PlayStore.
+4.  **Asset Polish:** Adding high-quality video content for the Simulated Call feature.
+5.  **Device Tuning:** Optimizing background triggers for specific Android OS restrictions.
+
+============================================================
+
+## 🩹 REMEDIES & NOTES
+
+1.  **FCM Mocking:** Push notification logic needs Firebase project credentials to go live.
+2.  **Permission Handling:** Regular audits of Android 13+ foreground service requirements.
+3.  **Overlay Permission:** On first run, user must grant "Display over other apps" for volume SOS overlay.
+4.  **On-Device STT:** Device must have offline speech model downloaded for best silent trigger performance.
+
+============================================================
+
+## 🔑 DEMO CREDENTIALS (Password: password123)
+
+1. **Female User 1**: `ananya_female` / `+919112223344`
+2. **Female User 2**: `priya_female` / `+919112223355`
+3. **Male User**:      `rohan_male`     / `+919223334466`
+4. **Volunteer**:      `rahul_volunteer` / `+919998887776` (Starts as *Unapproved*)
+5. **Police**:         `suresh_police`  / `+911111111111`
+
+============================================================
+Environment: Node.js / Flutter / MongoDB Atlas
+============================================================
+

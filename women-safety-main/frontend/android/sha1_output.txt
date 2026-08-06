@@ -1,0 +1,222 @@
+> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle:compileKotlin UP-TO-DATE
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy NO-SOURCE
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources UP-TO-DATE
+> Task :gradle:classes UP-TO-DATE
+> Task :gradle:jar UP-TO-DATE
+
+> Task :app:signingReport
+Variant: debug
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+Variant: release
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+Variant: profile
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+
+> Task :camera_android_camerax:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+
+> Task :flutter_background_service_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+
+> Task :flutter_local_notifications:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+
+> Task :flutter_overlay_window:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+
+> Task :flutter_plugin_android_lifecycle:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+
+> Task :geocoding_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+
+> Task :geolocator_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+
+> Task :google_maps_flutter_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+
+> Task :image_picker_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+
+> Task :path_provider_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+
+> Task :perfect_volume_control:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+
+> Task :share_plus:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+
+> Task :shared_preferences_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+
+> Task :speech_to_text:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+
+> Task :url_launcher_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: C:\Users\Lenovo\.android\debug.keystore
+Alias: AndroidDebugKey
+MD5: 03:99:72:56:7F:68:01:1D:4B:A1:8B:D9:2B:0A:43:32
+SHA1: DA:C7:F8:78:87:EB:16:2A:99:47:B0:71:EE:44:C9:B8:53:D4:03:7B
+SHA-256: 0C:85:53:2F:1C:F3:8A:91:F8:06:60:B8:58:94:C7:89:51:C2:B6:B2:95:D8:3C:B3:8D:D0:36:C6:AD:56:80:AB
+Valid until: Sunday, 13 February, 2056
+----------
+
+[Incubating] Problems report is available at: file:///C:/Users/Lenovo/OneDrive/Desktop/mini%20proj/womensafety_app/women-safety/frontend/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 3s
+20 actionable tasks: 16 executed, 4 up-to-date

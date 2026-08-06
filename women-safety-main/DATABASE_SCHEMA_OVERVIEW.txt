@@ -1,0 +1,112 @@
+SAFE TIPIN - COMPLETE DATABASE SCHEMA OVERVIEW
+=============================================
+This document contains the full details of all 14 collections used in the application.
+
+1. USERS (Core Account Data)
+----------------------------
+- _id: Unique object identifier.
+- name: Full name of the user.
+- phone: Mobile number (Login/OTP).
+- username: Unique ID (Police login; others auto-generated).
+- passwordHash: Encrypted password.
+- role: user, volunteer, or authority (Police).
+- gender: male, female, or other.
+- age: User's age.
+- address: Residential address.
+- trustedContacts: Emergency names & numbers list.
+- sosTriggerWord: Custom voice command (default: "help").
+- isApproved: verification status for volunteers.
+- isVerified: account verification status.
+
+2. ALERTS (Active SOS Events)
+-----------------------------
+- user: Reference to the person in danger.
+- status: active, in-progress (help coming), or resolved.
+- location: Object containing human-readable address and GPS lat/lng.
+- notifiedVolunteers: List of nearby helpers assigned to this alert.
+- evidence: Links to captured Audio recordings or Video clips.
+- incident: Link to a detailed incident report if created.
+
+3. CHECKINREQUESTS (Security Checks)
+------------------------------------
+- sessionId: Reference to the active trip (TravelSession).
+- trustedContactId: ID of the contact requested to verify the user.
+- status: pending, confirmed (user is safe), or missed (triggers alert).
+
+4. DESTINATIONS (Saved Places)
+------------------------------
+- destinationName: Custom label (e.g. "Home", "Gym").
+- placeName: Building or landmark name.
+- address: Full street address.
+- coordinates: GPS Latitude and Longitude.
+- user: The owner of this saved place.
+
+5. GUARDINGALERTS (Missed Check-ins)
+------------------------------------
+- session_id: Reference to the active guarding session.
+- alert_type: Usually "EMERGENCY".
+- latitude/longitude: Last known position when alert triggered.
+
+6. GUARDINGPROFILES (Guarding Config)
+-------------------------------------
+- device_id: Unique hardware identifier.
+- name: Optional user nickname.
+- created_at: When the profile was set up.
+
+7. GUARDINGSESSIONS (Active Monitoring)
+---------------------------------------
+- session_id: Unique ID for the monitoring period.
+- userId: ID of the user owning this session.
+- start_time/end_time: Duration of active guarding.
+- status: ACTIVE or SAFE.
+
+8. INCIDENTS (Safety Reports)
+-----------------------------
+- userId: The user who reported this incident.
+- type: Harassment, Theft, Assault, Suspicious Activity, etc.
+- severity: Low, Medium, or High.
+- location: exact coordinates and address of incident.
+- description: Detailed text of what happened.
+- proofs: Links to uploaded photos/videos.
+- status: pending, under-investigation, or resolved.
+
+9. LOCATIONUPDATES (Movement History)
+-------------------------------------
+- session_id: Link to a guarding or travel session.
+- userId: ID of the user this movement belongs to.
+- latitude/longitude: GPS path points.
+- timestamp: Exact time of this position update.
+
+10. MESSAGES (SOS Chat Logs)
+----------------------------
+- alert: ID of the SOS event.
+- senderName: Person who sent the chat.
+- senderRole: user, volunteer, or authority.
+- content: The actual text message.
+- createdAt: Time message was sent.
+
+11. RESOURCES (Safety Information)
+----------------------------------
+- title: Helpline or Guide name.
+- phone: Number to call (e.g. 112, 1091).
+- category: Emergency, Legal Rights, Self-Defense.
+- url: Link to external video or article.
+
+12. SHARELINKS (Live Sharing)
+-----------------------------
+- token: Secure part of the web link shared with family.
+- session_id: ID of the trip being shared.
+- expires_at: When the link stops working.
+
+13. TRAVELSESSIONS (Trip Monitoring)
+------------------------------------
+- userId: The user taking the trip.
+- destination: Where the user is going (address + coordinates).
+- currentLocation: Real-time GPS [lng, lat].
+- status: active, completed, or missed-checkin.
+
+14. TRUSTEDCONTACTS (Emergency Links)
+--------------------------------------
+- ownerUserId: The person who owns the contact.
+- trustedUserId: The ID of the friend/family member.
+- relationship: Mother, Friend, Spouse, etc.
