@@ -86,15 +86,6 @@ Last Updated: 2026-03-21
 3.  **Overlay Permission:** On first run, user must grant "Display over other apps" for volume SOS overlay.
 4.  **On-Device STT:** Device must have offline speech model downloaded for best silent trigger performance.
 
-============================================================
-
-## 🔑 DEMO CREDENTIALS (Password: password123)
-
-1. **Female User 1**: `ananya_female` / `+919112223344`
-2. **Female User 2**: `priya_female` / `+919112223355`
-3. **Male User**:      `rohan_male`     / `+919223334466`
-4. **Volunteer**:      `rahul_volunteer` / `+919998887776` (Starts as *Unapproved*)
-5. **Police**:         `suresh_police`  / `+911111111111`
 
 ============================================================
 Environment: Node.js / Flutter / MongoDB Atlas
